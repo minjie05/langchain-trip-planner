@@ -27,3 +27,15 @@ uv>=0.8.0
 # 其他工具
 python-dateutil>=2.8.2
 huggingface_hub>=0.25.0
+
+# LangChain 1.x (最新稳定版)
+langchain>=1.0.0
+langchain-core>=1.2.0
+langgraph>=1.1.0
+langchain-openai>=0.3.0
+
+# LangChain MCP适配器
+langchain-mcp-adapters>=0.2.0  # MCP集成，支持 LangChain 1.x
+
+# 事件循环支持
+nest_asyncio>=1.6.0
